@@ -30,10 +30,6 @@ export function DashboardPage() {
       <section className="fintech-header-banner">
         <div className="fintech-header-container">
           <div className="dashboard-banner-top-row">
-            <div className="fintech-pill-badge">
-              <span className="hero-pill-dot" aria-hidden="true">●</span>
-              <span>Mode {category || 'Umum'} Aktif</span>
-            </div>
             <div className="dashboard-quick-actions">
               <button
                 type="button"

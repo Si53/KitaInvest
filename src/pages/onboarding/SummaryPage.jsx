@@ -70,10 +70,6 @@ export function SummaryPage() {
       {/* Page Header Banner */}
       <section className="fintech-header-banner">
         <div className="fintech-header-container">
-          <div className="fintech-pill-badge">
-            <span className="hero-pill-dot" aria-hidden="true">●</span>
-            <span>Konfirmasi Profil Keuangan</span>
-          </div>
           <h1 className="fintech-page-title">
             Ringkasan Data <span className="text-lime-highlight">Keuangan Awal</span>
           </h1>

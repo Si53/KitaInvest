@@ -131,10 +131,6 @@ export function ProfileFormPage() {
       {/* Page Header Banner */}
       <section className="fintech-header-banner">
         <div className="fintech-header-container">
-          <div className="fintech-pill-badge">
-            <span className="hero-pill-dot" aria-hidden="true">●</span>
-            <span>Input Profil Finansial: {category}</span>
-          </div>
           <h1 className="fintech-page-title">
             Formulir Profil Keuangan <span className="text-lime-highlight">({category})</span>
           </h1>

@@ -22,10 +22,6 @@ export function JourneyPage() {
       {/* Page Header Banner */}
       <section className="fintech-header-banner">
         <div className="fintech-header-container">
-          <div className="fintech-pill-badge">
-            <span className="hero-pill-dot" aria-hidden="true">●</span>
-            <span>Gamifikasi & Pemantauan Literasi</span>
-          </div>
           <h1 className="fintech-page-title">
             Perjalanan Belajar <span className="text-lime-highlight">Finansial Anda</span>
           </h1>

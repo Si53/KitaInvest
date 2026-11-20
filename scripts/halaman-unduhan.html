@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Unduh Video — KitaInvest · Kelompok Yuhen</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; padding: 48px 24px;
+    font-family: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+    background: radial-gradient(1200px 600px at 50% -10%, #12251a 0%, #080b12 55%, #060910 100%);
+    color: #e2e8f0; display: flex; justify-content: center;
+  }
+  .wrap { width: 100%; max-width: 760px; }
+  .brand { font-size: 1.6rem; font-weight: 800; letter-spacing: -.02em; margin-bottom: 6px; }
+  .brand .k { color: #fff; }
+  .brand .i { color: #65d61e; }
+  .sub { color: #94a3b8; font-size: .9rem; margin-bottom: 36px; }
+  .tag {
+    display: inline-block; font-size: .7rem; font-weight: 800; letter-spacing: .08em;
+    text-transform: uppercase; color: #65d61e; background: rgba(101,214,30,.12);
+    border: 1px solid rgba(101,214,30,.35); padding: .3rem .8rem; border-radius: 999px;
+    margin-bottom: 18px;
+  }
+  a.card {
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
+    text-decoration: none; color: inherit; padding: 20px 22px; margin-bottom: 14px;
+    background: #0e141f; border: 1px solid #1e2a3b; border-radius: 14px;
+    transition: border-color .15s, transform .15s, background .15s;
+  }
+  a.card:hover { border-color: rgba(101,214,30,.6); background: #111926; transform: translateY(-1px); }
+  .meta { min-width: 0; }
+  .name { font-weight: 700; font-size: 1rem; margin-bottom: 4px; }
+  .desc { font-size: .82rem; color: #94a3b8; }
+  .dl {
+    font-size: .78rem; font-weight: 800; color: #080b12; background: #65d61e;
+    padding: .55rem 1rem; border-radius: 9px; white-space: nowrap;
+  }
+  .note {
+    margin-top: 30px; padding: 16px 18px; font-size: .82rem; line-height: 1.6;
+    color: #94a3b8; background: rgba(17,24,39,.6);
+    border-left: 3px solid #65d61e; border-radius: 0 10px 10px 0;
+  }
+  .note b { color: #e2e8f0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand"><span class="k">Kita</span><span class="i">Invest</span></div>
+  <div class="sub">Tugas Besar Sistem Multimedia · Kelompok Yuhen · Kelas IT-49-04</div>
+
+  <div class="tag">Unduh Berkas</div>
+
+  <a class="card" href="kitainvest-kirim.mp4" download>
+    <div class="meta">
+      <div class="name">kitainvest-kirim.mp4</div>
+      <div class="desc">Video final 1080p · 4 menit 36 detik · 25,4 MB</div>
+    </div>
+    <div class="dl">Unduh</div>
+  </a>
+
+  <a class="card" href="kitainvest-720p.mp4" download>
+    <div class="meta">
+      <div class="name">kitainvest-720p.mp4</div>
+      <div class="desc">Versi ringan 720p · 4 menit 36 detik · 10,2 MB</div>
+    </div>
+    <div class="dl">Unduh</div>
+  </a>
+
+  <a class="card" href="Script-Video-KitaInvest-Kelompok-Yuhen.md" download>
+    <div class="meta">
+      <div class="name">Script-Video-KitaInvest-Kelompok-Yuhen.md</div>
+      <div class="desc">Naskah video, terbagi 2 pembicara · 5,7 KB</div>
+    </div>
+    <div class="dl">Unduh</div>
+  </a>
+
+  <div class="note">
+    Klik <b>Unduh</b> pada kartu mana pun. Berkas ini ikut terbawa ke hosting statis mana pun
+    yang menyajikan folder <b>dist/</b> — jadi setelah aplikasi di-deploy, tautan unduhan video
+    tetap hidup di alamat yang sama.
+  </div>
+</div>
+</body>
+</html>

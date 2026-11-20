@@ -143,10 +143,6 @@ export function SimulationPage() {
       {/* Page Header Banner */}
       <section className="fintech-header-banner">
         <div className="fintech-header-container">
-          <div className="fintech-pill-badge">
-            <span className="hero-pill-dot" aria-hidden="true">●</span>
-            <span>Financial Engine & Chart.js</span>
-          </div>
           <h1 className="fintech-page-title">
             Rencana & Simulasi <span className="text-lime-highlight">Finansial Interaktif</span>
           </h1>

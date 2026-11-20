@@ -54,10 +54,6 @@ export function LearningPage() {
       {/* Page Header Banner */}
       <section className="fintech-header-banner">
         <div className="fintech-header-container">
-          <div className="fintech-pill-badge">
-            <span className="hero-pill-dot" aria-hidden="true">●</span>
-            <span>Modul Pembelajaran Interaktif (5 Topik Komprehensif)</span>
-          </div>
           <h1 className="fintech-page-title">
             Modul Literasi <span className="text-lime-highlight">Finansial Mandiri</span>
           </h1>

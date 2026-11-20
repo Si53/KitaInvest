@@ -11,7 +11,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "build:video": "npm run build && bash scripts/taruh-video.sh"
   },
   "keywords": [],
   "author": "",

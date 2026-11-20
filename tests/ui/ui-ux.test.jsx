@@ -105,7 +105,12 @@ describe('Agent 7: UI/UX Audit & Visual Component Tests', () => {
     // Headline & Highlight
     expect(html).toContain('Saatnya Finansial Kamu');
     expect(html).toContain('Naik Kelas');
-    expect(html).toContain('bersama KitaInvest');
+    // Brand di headline dirender sebagai <BrandWordmark> (dua span: Kita + Invest),
+    // jadi teks "bersama KitaInvest" tidak lagi satu potongan string.
+    expect(html).toContain('bersama');
+    expect(html).toContain('brand-wordmark--dark');
+    expect(html).toContain('>Kita</span>');
+    expect(html).toContain('>Invest</span>');
 
     // 3 Item Statistik
     expect(html).toContain('100%');

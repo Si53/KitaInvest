@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrandWordmark } from '../../components/common/BrandWordmark.jsx';
 import { useApp } from '../../context/AppContext.jsx';
 import heroIllustration from '../../assets/media/hero-illustration.png';
 
@@ -31,17 +32,12 @@ export function HomePage() {
         <div className="landing-hero-container">
           {/* Kolom Kiri */}
           <div className="hero-left-col">
-            {/* a. Pill Badge Gelap */}
-            <div className="hero-pill-badge">
-              <span className="hero-pill-dot" aria-hidden="true">●</span>
-              <span>Aplikasi Pembelajaran Finansial Mandiri</span>
-            </div>
-
             {/* b. Headline Besar */}
             <h1 className="hero-headline">
               Saatnya Finansial Kamu{' '}
               <span className="text-lime-highlight">Naik Kelas</span>{' '}
-              bersama KitaInvest
+              bersama{' '}
+              <BrandWordmark tone="dark" className="hero-brand-wordmark" />
             </h1>
 
             {/* c. Paragraf Deskripsi & Disclaimer Rules */}
@@ -124,7 +120,7 @@ export function HomePage() {
             <div className="keunggulan-pill-badge">KEUNGGULAN PLATFORM</div>
             <h2 className="keunggulan-title">
               Mengapa Belajar di{' '}
-              <span className="keunggulan-title-highlight">KitaInvest</span>?
+              <BrandWordmark tone="light" className="keunggulan-brand-wordmark" />?
             </h2>
             <p className="keunggulan-subtitle">
               Kami mengubah konsep keuangan yang rumit menjadi simulasi praktis dan ramah pengguna,

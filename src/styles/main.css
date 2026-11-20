@@ -235,6 +235,39 @@ select:focus-visible,
   color: #65D61E;
 }
 
+/* =========================================================
+   Brand Wordmark (Kita + Invest) - dua warna kontekstual
+   "Kita" mengikuti latar: putih di atas gelap, hitam di atas putih.
+   "Invest" selalu hijau brand.
+   ========================================================= */
+.brand-wordmark {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
+}
+
+.brand-wordmark-invest {
+  color: #65D61E;
+}
+
+.brand-wordmark--dark .brand-wordmark-kita {
+  color: #FFFFFF;
+}
+
+.brand-wordmark--light .brand-wordmark-kita {
+  color: #0F172A;
+}
+
+/* Hero (latar gelap) */
+.hero-brand-wordmark {
+  color: #FFFFFF;
+}
+
+/* Section keunggulan (latar putih) */
+.keunggulan-brand-wordmark {
+  color: #0F172A;
+}
+
 .brand-subtext {
   font-size: 0.72rem;
   color: #94A3B8;

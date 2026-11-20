@@ -44,10 +44,6 @@ export function CategorySelectPage() {
       {/* Page Header Banner (Dark Modern Fintech) */}
       <section className="fintech-header-banner">
         <div className="fintech-header-container">
-          <div className="fintech-pill-badge">
-            <span className="hero-pill-dot" aria-hidden="true">●</span>
-            <span>Onboarding & Data Profil</span>
-          </div>
           <h1 className="fintech-page-title">
             Pilih Kategori <span className="text-lime-highlight">Profil Anda</span>
           </h1>
