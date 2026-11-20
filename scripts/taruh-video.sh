@@ -10,7 +10,9 @@
 set -euo pipefail
 
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
-SRC="/home/ubuntu/lab/kitainvest-video/out"
+# Sumber video bisa berasal dari mesin mana pun: override lewat VIDEO_SRC,
+# atau taruh folder berisi tiga berkas itu di ./video-src (di-gitignore).
+SRC="${VIDEO_SRC:-$REPO/video-src}"
 DST="$REPO/dist/video"
 
 if [ ! -d "$REPO/dist" ]; then

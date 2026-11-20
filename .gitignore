@@ -34,3 +34,6 @@ Thumbs.db
 *.sw?
 .idea/
 .vscode/
+
+# Sumber berkas video untuk scripts/taruh-video.sh (video besar tidak masuk git)
+video-src/
